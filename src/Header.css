@@ -1,0 +1,16 @@
+.Header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header_logo {
+  max-height: 5rem;
+}
+
+@media(min-width: 600px) {
+  .Header_logo {
+    max-height: 5rem;
+  }
+}

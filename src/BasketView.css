@@ -1,0 +1,61 @@
+.BasketView {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  max-height: 100%;
+  width: calc(100% - 2rem);
+  max-width: 1280px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 3px 8px rgba(150, 150, 150, 0.7);
+}
+
+.BasketView_overlay {
+  position: fixed;
+  background-color: rgba(20, 20, 20, 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.BasketView_container {
+  position: relative;
+}
+
+#BasketView_heading {
+  margin: 0;
+}
+
+.BasketView_close {
+  font-size: 0.75rem;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+}
+
+.BasketView_items {
+  width: 100%;
+}
+
+.BasketView_items thead {
+  text-align: left;
+}
+
+.BasketView_items tfoot {
+  font-weight: bold;
+}
+
+.BasketView_items .price {
+  text-align: right;
+}
+
+@media(min-width: 600px) {
+  .BasketView {
+    width: 500px;
+    top: 4rem;
+    left: calc(50% - 250px);
+  }
+}

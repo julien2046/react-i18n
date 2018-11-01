@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Product.addItemToBasket",
+    "description": "Label text for adding a named item to the basket",
+    "defaultMessage": "Add {item} to Basket"
+  },
+  {
+    "id": "Product.removeItemFromBasket",
+    "description": "Label text for removing a named item from the basket",
+    "defaultMessage": "Remove {item} from Basket"
+  },
+  {
+    "id": "Product.removeFromBasket",
+    "description": "Button for removing a product from a basket",
+    "defaultMessage": "Remove from Basket"
+  },
+  {
+    "id": "Product.addToBasket",
+    "description": "Button for adding a product to a basket",
+    "defaultMessage": "Add to Basket"
+  }
+]

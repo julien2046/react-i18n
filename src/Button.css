@@ -1,0 +1,24 @@
+.Button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: rgb(230, 230, 230);
+  display: inline-block;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Button:focus, .Button:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.Button.primary {
+  background-color: rgb(181, 245, 171);
+}
+
+.Button.primary:focus, .Button.primary:hover {
+  background-color: rgb(191, 255, 181);
+}

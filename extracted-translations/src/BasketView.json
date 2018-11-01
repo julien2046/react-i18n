@@ -1,0 +1,32 @@
+[
+  {
+    "id": "BasketView.close",
+    "description": "Alternative Text for closing the basket window",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "BasketView.item",
+    "description": "Label for the item in the basket",
+    "defaultMessage": "Item"
+  },
+  {
+    "id": "BasketView.price",
+    "description": "Label for the price of an item in the basket",
+    "defaultMessage": "Price"
+  },
+  {
+    "id": "BasketView.total",
+    "description": "Label for the total value of the basket",
+    "defaultMessage": "Total"
+  },
+  {
+    "id": "BasketView.emptyBasket",
+    "description": "The user has an empty basket",
+    "defaultMessage": "Your basket is empty"
+  },
+  {
+    "id": "BasketView.heading",
+    "description": "Heading for the basket view",
+    "defaultMessage": "Basket"
+  }
+]

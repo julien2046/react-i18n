@@ -1,0 +1,7 @@
+[
+  {
+    "id": "Basket.basketValue",
+    "description": "Alternative Text for basket button",
+    "defaultMessage": "Basket Total {total}"
+  }
+]

@@ -1,0 +1,18 @@
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Products > * {
+  flex: 0 0 100%;
+  margin-bottom: 1rem;
+}
+
+@media(min-width: 600px) {
+  .Products {
+    justify-content: space-between;
+  }
+  .Products > * { 
+    flex-basis: 49%;
+  }
+}
